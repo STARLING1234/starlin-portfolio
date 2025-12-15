@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Mail, Linkedin, Phone, Code, Briefcase, GraduationCap, Award, ChevronRight, Menu, X, ArrowRight, Sparkles, Terminal, Zap } from 'lucide-react';
+import { Mail, Linkedin, Phone, ArrowRight } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -27,12 +27,12 @@ const Contact = () => {
             <p className="text-gray-400 text-sm">starling2269@gmail.com</p>
           </a>
 
-          <a href="tel:+916374817073" className="group bg-slate-800/30 backdrop-blur-xl p-6 rounded-2xl border border-purple-500/20 hover:border-purple-500/50 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+          <a href="tel:+916374817043" className="group bg-slate-800/30 backdrop-blur-xl p-6 rounded-2xl border border-purple-500/20 hover:border-purple-500/50 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
             <div className="bg-pink-600/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-pink-600/30 transition-colors">
               <Phone size={28} className="text-pink-400" />
             </div>
             <h3 className="text-white font-semibold mb-2">Phone</h3>
-            <p className="text-gray-400 text-sm">+91 6374817073</p>
+            <p className="text-gray-400 text-sm">+91 6374817043</p>
           </a>
 
           <a href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/" target="_blank" rel="noopener noreferrer" className="group bg-slate-800/30 backdrop-blur-xl p-6 rounded-2xl border border-purple-500/20 hover:border-purple-500/50 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
