@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Mail, Linkedin, Phone, Code, Briefcase, GraduationCap, Award, ChevronRight, Menu, X, ArrowRight, Sparkles, Terminal, Zap } from 'lucide-react';
+import { Mail, Linkedin, Phone } from 'lucide-react';
+import { FaLinkedinIn } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -12,20 +13,33 @@ const Footer = () => {
             </h3>
             <p className="text-gray-400">Full Stack Developer</p>
           </div>
-          
+
           <div className="flex gap-6">
-            <a href="mailto:starling2269@gmail.com" className="text-gray-400 hover:text-purple-400 transition-colors">
-              <Mail size={24} />
+            <a
+              href="mailto:starling2269@gmail.com"
+              className="text-gray-400 hover:text-purple-400 transition-colors"
+            >
+              <Mail className="w-6 h-6" />
             </a>
-            <a href="tel:+916374817073" className="text-gray-400 hover:text-purple-400 transition-colors">
-              <Phone size={24} />
+
+            <a
+              href="tel:+916374817073"
+              className="text-gray-400 hover:text-purple-400 transition-colors"
+            >
+              <Phone className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
-              <Linkedin size={24} />
+
+            <a
+              href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-purple-400 transition-colors"
+            >
+              <FaLinkedinIn className="w-6 h-6" />
             </a>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-purple-500/20 text-center text-gray-400">
           <p>© 2025 Starlin Gnanaraj Sudhahar. All rights reserved.</p>
         </div>
